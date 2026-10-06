@@ -85,6 +85,10 @@ def style_base_layout():
                     border: none !important;
                     transition: transform 0.25s ease-in-out !important;
                 }
+
+                button:hover {
+                    transform: scale(1.05)
+                }
         
         </style>
 """,unsafe_allow_html=True)
