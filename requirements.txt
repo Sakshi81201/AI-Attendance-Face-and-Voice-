@@ -21,4 +21,5 @@ pillow              #Image pre-processing
 
 streamlit           #Frontend library
 
-
+librosa             #Created Embedding
+resemblyzer         #Edit the Audio files
