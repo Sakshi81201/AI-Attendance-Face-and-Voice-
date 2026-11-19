@@ -1,7 +1,7 @@
-# Utlities
-numpy
-pandas
 
+# Utilities
+numpy<2.0
+pandas
 
 # Face Recognition
 scikit-learn
@@ -9,17 +9,20 @@ dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
 setuptools
 
-
-#Database
+# Database
 supabase
-bcrypt              #Hashing passwords
+bcrypt
 
+# QR Code
+segno
+pillow
 
-segno               #For QR code
-pillow              #Image pre-processing
+# Frontend
+streamlit
 
+# Audio Processing
+librosa
+resemblyzer
 
-streamlit           #Frontend library
-
-librosa             #Created Embedding
-resemblyzer         #Edit the Audio files
+# WebRTC VAD alternative
+webrtcvad-wheels
