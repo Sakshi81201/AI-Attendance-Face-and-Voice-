@@ -1,6 +1,8 @@
+# Frontend
+streamlit
 
 # Utilities
-numpy<2.0
+numpy
 pandas
 
 # Face Recognition
@@ -16,9 +18,6 @@ bcrypt
 # QR Code
 segno
 pillow
-
-# Frontend
-streamlit
 
 # Audio Processing
 librosa
