@@ -62,6 +62,13 @@ def style_base_layout():
                     color: #31333F 
                 }
 
+                /* Keep warning text readable against the app's alert background */
+                .stApp div[data-testid="stAlert"],
+                .stApp div[data-testid="stAlert"] *,
+                .stApp [data-testid="stAlert"] [data-testid="stMarkdownContainer"] p {
+                    color: #E0E3FF !important;
+                }
+
                 /*Hide Top Bar of streamlit*/
             
                 #MainMenu, header, footer {
